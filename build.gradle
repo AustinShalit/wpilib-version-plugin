@@ -26,6 +26,8 @@ wpilibVersioning.version.finalizeValue()
 version = wpilibVersioning.version.get()
 group = 'edu.wpi.first.wpilib.versioning'
 
+println version
+
 pluginBundle {
     website = 'https://github.com/wpilibsuite/wpilib-version-plugin'
     vcsUrl = 'https://github.com/wpilibsuite/wpilib-version-plugin'
